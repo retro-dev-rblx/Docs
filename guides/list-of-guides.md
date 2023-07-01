@@ -19,7 +19,7 @@ Here is a list of guides for understanding certain coding blocks, and what they 
 
 ### Simple
 
-- Nothing yet
+* [For Loops WIP](simple/for-loops.md)
 
 ### Intermediate
 
