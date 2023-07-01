@@ -1,5 +1,5 @@
 ---
-description: Clones an object.
+description: Runs the connected blocks until Initial is equal to Maximum, while increasing Initial by Increment each time.
 layout:
   title:
     visible: true
