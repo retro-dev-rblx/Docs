@@ -1,5 +1,5 @@
 ---
-description: Clones an object.
+description: Runs the connected blocks once for each value in a table.
 layout:
   title:
     visible: true
