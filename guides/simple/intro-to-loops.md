@@ -42,3 +42,9 @@ Other examples where you can use the `For Loop` block for are:
 * Typewriter text
 * Stopwatch
 * Moving multiple parts at once
+
+
+### While Loops
+
+Well, what if you need something that lasts infinitley? A while loop lasts forever, which can be pretty useful in some cases.
+
