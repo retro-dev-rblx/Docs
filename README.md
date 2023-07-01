@@ -22,3 +22,5 @@ Welcome to the RetroStudio Documentation website! Currently a work in progress.
 ## [Code Blocks](broken-reference)
 
 ## [Objects](broken-reference)
+
+## [Guides](broken-reference)
