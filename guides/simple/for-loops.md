@@ -12,11 +12,14 @@ layout:
   pagination:
     visible: true
 ---
+*Also refer to code block pages when they come out*
 
 # For Loops
 
-This will not only cover the For Loop block, but the 
+This will not only cover the For Loop block, also but the Loop Through Table, Loop Through Children, and Loop Through Decendants.
 
 ## Introduction
 
 Let's say you need to automate something, like giving weapons to a team of players. 
+
+For this, you can use the `Loop Through Children` block to loop through instances in an object.
