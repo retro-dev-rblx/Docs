@@ -74,10 +74,18 @@ Mesh
 * [x] Editable without script
 * [ ] Read only
 
+```
+rbxassetid://0
+```
+
 #### MeshId (String)
 
 * [x] Editable without script
 * [ ] Read only
+
+```
+rbxassetid://0
+```
 
 #### MeshType (Enum.MeshType)
 
