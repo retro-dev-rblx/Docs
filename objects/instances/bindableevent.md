@@ -20,7 +20,7 @@ layout:
 
 #### Description
 
-The BindableEvent object enables custom events through asynchronous one-way communication between scripts on the same side of the [client-server boundary](https://create.roblox.com/docs/projects/client-server). When you fire a BindableEvent through the Fire Bindable Event block, the firing script does not yield and the target function receives the passed arguments with certain limitations. 
+The BindableEvent object enables custom events through asynchronous one-way communication between scripts on the same side of the [client-server boundary](https://create.roblox.com/docs/projects/client-server). When you fire a BindableEvent through the Fire Bindable Event block, the firing script does not yield and the target function receives the passed arguments with certain limitations.&#x20;
 
 #### Available to
 
