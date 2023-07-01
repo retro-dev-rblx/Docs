@@ -19,8 +19,8 @@ Welcome to the RetroStudio Documentation website! Currently a work in progress.
 
 
 
-## [Code Blocks](broken-reference)
+## [Code Blocks](code-blocks/README.md)
 
-## [Objects](broken-reference)
+## [Objects](objects/README.md)
 
-## [Guides](guides)
+## [Guides](guides/README.md)
