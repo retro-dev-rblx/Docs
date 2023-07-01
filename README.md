@@ -23,4 +23,4 @@ Welcome to the RetroStudio Documentation website! Currently a work in progress.
 
 ## [Objects](broken-reference)
 
-## [Guides](broken-reference)
+## [Guides](guides)
