@@ -12,7 +12,7 @@ layout:
   pagination:
     visible: true
 ---
-*Also refer to [For Loop](code-blocks/miscellaneous/run/for-loop.md), [Loop Through Table](code-blocks/miscellaneous/run/loop-through-table.md)*
+*Also refer to [For Loop](/code-blocks/miscellaneous/run/for-loop.md), [Loop Through Table](/code-blocks/miscellaneous/run/loop-through-table.md)*
 
 # For Loops
 
