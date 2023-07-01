@@ -48,7 +48,7 @@ The BrickColorValue is used to hold a BrickColor inside of its Value property.
 * [x] Read only
 
 ```
-BoolValue
+BrickColorValue
 ```
 
 #### Name (String)
