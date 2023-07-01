@@ -12,7 +12,7 @@ layout:
   pagination:
     visible: true
 ---
-*Also refer to code block pages when they come out*
+*Also refer to (For Loop)[code-blocks/miscellaneous/run/for-loop.md]*
 
 # For Loops
 
