@@ -1,8 +1,6 @@
 ---
 description: >-
-  The BodyGyro object applies a torque (rotational force) on a BasePart such that it maintains a constant angular displacement, or orientation.
-  This allows for the creation of parts that point in a certain direction, as if a real gyroscope were acting upon it.
-  Essentially, it's the rotational counterpart to a BodyPosition.
+  The BodyGyro Instance will apply a torque on the BasePart it is parented to in which itll be given a constant angular displacement, or orientation.
 layout:
   title:
     visible: true
@@ -20,7 +18,10 @@ layout:
 
 #### Description
 
-The BodyGyro Instance will apply a torque on the BasePart it is parented to in which itll be given a constant angular displacement, or orientation.
+
+The BodyGyro object applies a torque (rotational force) on a BasePart such that it maintains a constant angular displacement, or orientation.
+  This allows for the creation of parts that point in a certain direction, as if a real gyroscope were acting upon it.
+  Essentially, it's the rotational counterpart to a BodyPosition.
 
 #### Available to
 
