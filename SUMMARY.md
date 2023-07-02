@@ -69,3 +69,5 @@
     * [BindableFunction](objects/instances/bindablefunction.md)
     * [BlockMesh](objects/instances/blockmesh.md)
     * [BodyAngularVelocity](objects/instances/bodyangularvelocity.md)
+    * [Dialog](objects/instances/dialog.md)
+    * [Weld](objects/instances/weld.md)
