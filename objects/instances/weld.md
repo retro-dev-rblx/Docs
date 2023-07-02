@@ -72,7 +72,7 @@ workspace
 #### Part0 (String)
 
 * [ ] Editable without script
-* [x] Read only
+* [ ] Read only
 
 ```
 nil
@@ -80,7 +80,7 @@ nil
 
 #### Part1 (String)
 
-* [x] Editable without script
+* [ ] Editable without script
 * [ ] Read only
 
 ```
