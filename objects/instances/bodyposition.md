@@ -1,9 +1,6 @@
 ---
 description: >-
-  The BodyPosition object applies a force on a BasePart such that it will maintain a constant position in the world.
-  The Position property, not to be confused with BasePart.Position, controls the target world position.
-  This is the translational counterpart to a BodyGyro. 
-  If you need further control on a force applied to an object, consider using a BodyForce or BodyThrust instead.
+  The BodyPosition Instance applies a force onto the basepart it is parented to in such a way that it will maintain a constant position in the workspace.
 layout:
   title:
     visible: true
@@ -21,7 +18,10 @@ layout:
 
 #### Description
 
-The BodyPosition Instance applies a force onto the basepart it is parented to in such a way that it will maintain a constant position in the workspace.
+The BodyPosition object applies a force on a BasePart such that it will maintain a constant position in the world.
+  The Position property, not to be confused with BasePart.Position, controls the target world position.
+  This is the translational counterpart to a BodyGyro. 
+  If you need further control on a force applied to an object, consider using a BodyForce or BodyThrust instead.
 
 #### Available to
 
