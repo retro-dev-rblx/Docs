@@ -62,8 +62,8 @@ The explosion is a instance that makes a explosion effect and then afterwards ki
 
 #### ClassName (String)
 
-* [x] Editable without script
-* [ ] Read only
+* [ ] Editable without script
+* [x] Read only
 
 ```
 Explosion
