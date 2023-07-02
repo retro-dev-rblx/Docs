@@ -52,7 +52,7 @@
       * [Get Mouse Target Part](code-blocks/input/mouse/get-mouse-target-part.md)
       * [Get Mouse Target Surface](code-blocks/input/mouse/get-mouse-target-surface.md)
       * [Get Mouse Position 2D](code-blocks/input/mouse/get-mouse-position-2d.md)
-      * [Get Mouse Position #D](code-blocks/input/mouse/get-mouse-position-3d.md)
+      * [Get Mouse Position 3D](code-blocks/input/mouse/get-mouse-position-3d.md)
       * [Left Mouse Down](code-blocks/input/mouse/left-mouse-down.md)
       * [Left Mouse Up](code-blocks/input/mouse/left-mouse-up.md)
       * [Right Mouse Down](code-blocks/input/mouse/right-mouse-down.md)
