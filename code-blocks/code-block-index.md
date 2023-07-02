@@ -73,3 +73,18 @@ There are various pages for code blocks. You can find them below.
 * [Create Leaderstat](actions/leaderstats/create-leaderstat.md)
 * [Get Leaderstat](actions/leaderstats/get-leaderstat.md)
 
+## Input
+
+#### Mouse
+
+* [Click Detector Interaction](input/mouse/click-detector-interaction.md)
+* [Get Mouse Target Part](input/mouse/get-mouse-target-part.md)
+* [Get Mouse Target Surface](input/mouse/get-mouse-target-surface.md)
+* [Get Mouse Position 2D](input/mouse/get-mouse-position-2d.md)
+* [Get Mouse Position 3D](input/mouse/get-mouse-position-3d.md)
+* [Left Mouse Down](input/mouse/left-mouse-down.md)
+* [Left Mouse Up](input/mouse/left-mouse-up.md)
+* [Right Mouse Down](input/mouse/right-mouse-down.md)
+* [Right Mouse Up](input/mouse/right-mouse-up.md)
+* [Set Mouse Target Filter](input/mouse/set-mouse-target-filter.md)
+
