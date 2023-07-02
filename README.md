@@ -17,8 +17,6 @@ layout:
 
 Welcome to the RetroStudio Documentation website! Currently a work in progress.
 
+## [Code Blocks](code-blocks/code-block-index.md)
 
-
-## [Code Blocks](broken-reference)
-
-## [Objects](broken-reference)
+## [Objects](objects/objects-index.md)
