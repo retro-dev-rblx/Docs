@@ -1,9 +1,6 @@
 ---
 description: >-
-  The BodyForce object applies (or exerts) a force on the part to which it is parented. 
-  If the magnitude of such a force is great enough, parts can begin to accelerate. 
-  The force is determined by the BodyForce.Force property, and is defined on the three world axes.
-  See page for more information.
+  The BodyForce Instance will exerts a force on a BasePart in which it is parented to based off the BodyForce.Force property.
 layout:
   title:
     visible: true
@@ -21,7 +18,10 @@ layout:
 
 #### Description
 
-The BodyForce Instance will exerts a force on a BasePart in which it is parented to based off the BodyForce.Force property.
+The BodyForce object applies (or exerts) a force on the part to which it is parented. 
+  If the magnitude of such a force is great enough, parts can begin to accelerate. 
+  The force is determined by the BodyForce.Force property, and is defined on the three world axes.
+  See page for more information.
 
 #### Available to
 
