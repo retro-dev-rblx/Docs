@@ -68,6 +68,15 @@ Dialog
 ```
 ```
 
+#### InUse (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
 #### InitialPrompt (String)
 
 * [x] Editable without script
