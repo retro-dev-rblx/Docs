@@ -34,4 +34,11 @@ There are various pages for objects. You can find them below.
 * [BodyThrust](instances/bodythrust.md)
 * [BoolValue](instances/boolvalue.md)
 * [BrickColorValue](instances/brickcolorvalue.md)
+* [Decal](instances/decal.md)
+* [Dialog](instances/dialog.md)
+* [Explosion](instances/explosion.md)
+* [Fire](instances/fire.md)
+* [Smoke](instances/smoke.md)
 * [SpecialMesh](instances/specialmesh.md)
+* [Weld](instances/weld.md)
+
