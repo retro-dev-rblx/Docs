@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BodyVelocity object applies a force on a BasePart such that it will maintain a constant velocity.
-  The BodyVelocity.Velocity property, not to be confused wtih BasePart.AssemblyLinearVelocity, controls the goal velocity.
+  The BodyVelocity Instance exerts a force on the BasePart it is parented to so that it will maintain a constant velocity.
 layout:
   title:
     visible: true
@@ -19,7 +18,8 @@ layout:
 
 #### Description
 
-The BodyVelocity Instance exerts a force on the BasePart it is parented to so that it will maintain a constant velocity.
+The BodyVelocity object applies a force on a BasePart such that it will maintain a constant velocity.
+  The BodyVelocity.Velocity property, not to be confused wtih BasePart.AssemblyLinearVelocity, controls the goal velocity.
 
 #### Available to
 
