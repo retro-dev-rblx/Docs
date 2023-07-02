@@ -1,9 +1,6 @@
 ---
 description: >-
-  The BodyThrust object applies (or exerts) a force relative to the part to which it is parented at a specific location.
-  It behaves similar to a BodyForce, except that this object's force applies at a specific point (BodyThrust.Location), allowing you to exert a torque (rotational force).
-  To apply a force dynamically so that a part maintains a constant angular velocity, use a BodyAngularVelocity instead.
-  To apply a force dynamically so that a part maintains a constant orientation (angular position), use a BodyGyro.
+  The BodyThrust Instance exerts a force relative to the BasePart in which it is parented to at a specific location.
 layout:
   title:
     visible: true
@@ -21,7 +18,10 @@ layout:
 
 #### Description
 
-The BodyThrust Instance exerts a force relative to the BasePart in which it is parented to at a specific location.
+The BodyThrust object applies (or exerts) a force relative to the part to which it is parented at a specific location.
+  It behaves similar to a BodyForce, except that this object's force applies at a specific point (BodyThrust.Location), allowing you to exert a torque (rotational force).
+  To apply a force dynamically so that a part maintains a constant angular velocity, use a BodyAngularVelocity instead.
+  To apply a force dynamically so that a part maintains a constant orientation (angular position), use a BodyGyro.
 
 #### Available to
 
