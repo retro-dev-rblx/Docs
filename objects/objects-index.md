@@ -27,3 +27,5 @@ There are various pages for objects. You can find them below.
 * [BindableFunction](instances/bindablefunction.md)
 * [BlockMesh](instances/blockmesh.md)
 * [BodyAngularVelocity](instances/bodyangularvelocity.md)
+* [Dialog](instances/dialog.md)
+* [Weld](instances/weld.md)
