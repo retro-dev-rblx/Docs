@@ -44,8 +44,8 @@ The weld instance is used for welding 2 instances together, but this is most com
 
 #### ClassName (String)
 
-* [x] Editable without script
-* [ ] Read only
+* [ ] Editable without script
+* [x] Read only
 
 ```
 Weld
