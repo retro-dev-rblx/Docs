@@ -39,6 +39,10 @@ There are various pages for objects. You can find them below.
 * [Explosion](instances/explosion.md)
 * [Fire](instances/fire.md)
 * [Smoke](instances/smoke.md)
+* [SpawnLocation](instances/spawnlocation.md)
 * [SpecialMesh](instances/specialmesh.md)
+* [Team](instances/team.md)
+* [Texture](instances/texture.md)
+* [Tool](instances/tool.md)
+* [Truss](instances/truss.md)
 * [Weld](instances/weld.md)
-
