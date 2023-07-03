@@ -60,11 +60,11 @@ Soundscape
 
 #### Name (String)
 
-* [x] Editable without script
-* [ ] Read only
+* [ ] Editable without script
+* [x] Read only
 
 ```
-Workspace
+Soundscape
 ```
 
 #### Parent (String)
