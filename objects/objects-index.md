@@ -46,3 +46,8 @@ There are various pages for objects. You can find them below.
 * [Tool](instances/tool.md)
 * [Truss](instances/truss.md)
 * [Weld](instances/weld.md)
+
+## Services
+
+* [Soundscape](instances/soundscape.md)
+* [Workspace](instances/workspace.md)
