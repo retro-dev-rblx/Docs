@@ -49,5 +49,5 @@ There are various pages for objects. You can find them below.
 
 ## Services
 
-* [Soundscape](instances/soundscape.md)
-* [Workspace](instances/workspace.md)
+* [Soundscape](services/soundscape.md)
+* [Workspace](services/workspace.md)
