@@ -88,3 +88,6 @@
     * [Tool](objects/instances/tool.md)
     * [Truss](objects/instances/truss.md)
     * [Weld](objects/instances/weld.md)
+  * [Services](objects/services/README.md)
+    * [Soundscape](objects/services/soundscape.md)
+    * [Workspace](objects/services/workspace.md)
