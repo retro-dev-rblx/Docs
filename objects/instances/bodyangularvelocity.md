@@ -19,7 +19,7 @@ layout:
 
 #### Description
 
-The BodyAngularVelocity object applies a torque (or rotational force) on a BasePart such that it maintains a constant angular velocity as determined by its [AngularVelocity](#angularvelocity-vector3). This allows for the creation of parts that continually rotate. It is the rotational counterpart to a BodyVelocity. If you would like to maintain a constant angular displacement, use a BodyGyro instead.
+The BodyAngularVelocity object applies a torque (or rotational force) on a BasePart such that it maintains a constant angular velocity as determined by its [AngularVelocity](#angularvelocity-vector3). This allows for the creation of parts that continually rotate. It is the rotational counterpart to a BodyVelocity. If you would like to maintain a constant angular displacement, use a [BodyGyro](bodygyro.md) instead.
 
 #### Available to
 
