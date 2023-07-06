@@ -20,8 +20,8 @@ layout:
 
 The BodyThrust object applies (or exerts) a force relative to the part to which it is parented at a specific location.
   It behaves similar to a BodyForce, except that this object's force applies at a specific point ([BodyThrust.Location](#location-vector3)), allowing you to exert a torque (rotational force).
-  To apply a force dynamically so that a part maintains a constant angular velocity, use a BodyAngularVelocity instead.
-  To apply a force dynamically so that a part maintains a constant orientation (angular position), use a BodyGyro.
+  To apply a force dynamically so that a part maintains a constant angular velocity, use a [BodyAngularVelocity](bodyangularvelocity.md) instead.
+  To apply a force dynamically so that a part maintains a constant orientation (angular position), use a [BodyGyro](bodygyro.md).
 
 #### Available to
 
