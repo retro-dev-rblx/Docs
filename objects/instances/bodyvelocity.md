@@ -19,7 +19,7 @@ layout:
 #### Description
 
 The BodyVelocity object applies a force on a BasePart such that it will maintain a constant velocity.
-  The (Velocity)[#velocity-vector3] property, not to be confused wtih BasePart.AssemblyLinearVelocity, controls the goal velocity.
+  The [Velocity](#velocity-vector3) property, not to be confused wtih BasePart.AssemblyLinearVelocity, controls the goal velocity.
 
 #### Available to
 
