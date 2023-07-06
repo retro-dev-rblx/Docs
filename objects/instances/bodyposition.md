@@ -20,8 +20,8 @@ layout:
 
 The BodyPosition object applies a force on a BasePart such that it will maintain a constant position in the world.
   The Position property, not to be confused with BasePart.Position, controls the target world position.
-  This is the translational counterpart to a BodyGyro. 
-  If you need further control on a force applied to an object, consider using a BodyForce or BodyThrust instead.
+  This is the translational counterpart to a [BodyGyro](bodygyro.md). 
+  If you need further control on a force applied to an object, consider using a [BodyForce](bodyforce.md) or [BodyThrust](bodythrust.md) instead.
 
 #### Available to
 
