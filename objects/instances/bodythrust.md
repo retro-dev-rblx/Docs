@@ -14,7 +14,7 @@ layout:
     visible: true
 ---
 
-# BodyAngularVelocity
+# BodyThrust
 
 #### Description
 
