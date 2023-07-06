@@ -18,7 +18,7 @@ layout:
 
 #### Description
 
-The tool instance is used for making tools, items, or anything that a player can hold. It is stored in the player's backpack.
+The tool instance is used for making tools, items, or anything that a player can hold. It is stored in the player's [Backpack](backpack.md).
 
 #### Available to
 
