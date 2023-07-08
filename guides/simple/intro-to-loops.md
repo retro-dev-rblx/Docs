@@ -48,3 +48,11 @@ Other examples where you can use the `For Loop` block for are:
 
 Well, what if you need something that lasts infinitley? A while loop lasts forever, which can be pretty useful in some cases.
 
+This time, we'll be making a health monitor. Make sure to insert a local script instead of a regular one.
+
+First, get your player by adding a `Set Variable` block to `game.Players.LocalPlayer`. I'll name the variable to "Player".
+Next, insert your `While Loop` block, you don't need to change any properties because `nil` already equals `nil`.
+Connect a wait block to the loop and set the time to 0 seconds. **DO NOT FORGET TO ADD THIS BLOCK OR ELSE YOUR GAME WILL CRASH.**
+Then, get your health from the character. Connect a `Get Object Property` block. 
+
+
