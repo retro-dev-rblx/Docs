@@ -91,3 +91,7 @@
   * [Services](objects/services/README.md)
     * [Soundscape](objects/services/soundscape.md)
     * [Workspace](objects/services/workspace.md)
+* [Guides](guides/README.md)
+  * [Guides Index](guides/guides-index.md)
+  * [Simple Guides](guides/simple/README.md)
+    * [Intro to Loops](guides/simple/intro-to-loops.md) 
