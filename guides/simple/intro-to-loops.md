@@ -53,6 +53,9 @@ This time, we'll be making a health monitor. Make sure to insert a local script 
 First, get your player by adding a `Set Variable` block to `game.Players.LocalPlayer`. I'll name the variable to "Player".
 Next, insert your `While Loop` block, you don't need to change any properties because `nil` already equals `nil`.
 Connect a wait block to the loop and set the time to 0 seconds. **DO NOT FORGET TO ADD THIS BLOCK OR ELSE YOUR GAME WILL CRASH.**
-Then, get your health from the character. Connect a `Get Object Property` block. 
+Then, get your health from the character. Connect a `Get Object Property` block. Set the object to `Player.Character.Humanoid` and set the property to `Health`. You can name the health variable anything you want, but I'll set it to "Health". Next, print out the `Health` variable and you're done!
 
+Nice! Now you have a basic health monitor.
+
+<img width="224" alt="image" src="https://github.com/trademark-living-his-best-life/Docs/assets/93290253/87ece037-326c-4783-be7a-282af951aaea">
 
