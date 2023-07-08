@@ -19,7 +19,7 @@ layout:
 
 #### Description
 
-A container object that holds a Player's inventory. Any Tool in a player's Backpack will be displayed in their inventory at the bottom of their screen. Selecting Tools from the inventory will equip the Tool, moving it from the Backpack to the player's character.
+A container object that holds a Player's inventory. Any [Tool](tool.md) in a player's Backpack will be displayed in their inventory at the bottom of their screen. Selecting Tools from the inventory will equip the Tool, moving it from the Backpack to the player's character.
 
 The Backpack can also store Scripts and LocalScripts, which run when placed in a player's Backpack.
 

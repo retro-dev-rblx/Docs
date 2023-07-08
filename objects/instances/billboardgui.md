@@ -19,7 +19,7 @@ layout:
 
 #### Description
 
-BillboardGuis are containers for GuiObjects that appear in the 3D space. BillboardGuis always face the camera, and can either change size with distance or remain the same size on the screen based on the BillboardGui.Size property.
+BillboardGuis are containers for GuiObjects that appear in the 3D space. BillboardGuis always face the camera, and can either change size with distance or remain the same size on the screen based on the [Size](#size-udim2) property.
 
 #### Available to
 

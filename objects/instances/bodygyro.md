@@ -21,7 +21,7 @@ layout:
 
 The BodyGyro object applies a torque (rotational force) on a BasePart such that it maintains a constant angular displacement, or orientation.
   This allows for the creation of parts that point in a certain direction, as if a real gyroscope were acting upon it.
-  Essentially, it's the rotational counterpart to a BodyPosition.
+  Essentially, it's the rotational counterpart to a [BodyPosition](bodyposition.md).
 
 #### Available to
 
