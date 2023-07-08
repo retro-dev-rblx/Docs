@@ -18,7 +18,7 @@ layout:
 
 #### Description
 
-The BrickColorValue is used to hold a BrickColor inside of its Value property.
+The BrickColorValue is used to hold a [BrickColor](#value-brickcolorvalue) inside of its Value property.
 
 #### Available to
 

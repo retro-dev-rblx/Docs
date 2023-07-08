@@ -20,7 +20,7 @@ layout:
 
 The BodyForce object applies (or exerts) a force on the part to which it is parented. 
   If the magnitude of such a force is great enough, parts can begin to accelerate. 
-  The force is determined by the BodyForce.Force property, and is defined on the three world axes.
+  The force is determined by the [Force](#force-vector3) property, and is defined on the three world axes.
   See page for more information.
 
 #### Available to
