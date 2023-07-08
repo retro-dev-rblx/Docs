@@ -19,7 +19,7 @@ Here is a list of guides for understanding certain coding blocks, and what they 
 
 ### Simple
 
-* [Intro to Loops WIP](simple/intro-to-loops.md)
+* [Intro to Loops](simple/intro-to-loops.md)
 
 ### Intermediate
 
