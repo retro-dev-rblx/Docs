@@ -1,5 +1,6 @@
 ---
 description:
+A simple guide on how to make a debounce script.
 layout:
   title:
     visible: true
@@ -29,7 +30,7 @@ parameter of the if statement to be the variable we just created. The second par
 
 <img width="327" alt="image" src="https://cdn.discordapp.com/attachments/1127345394779689082/1128129802776363018/image.png">
 
-### How does it work?!?!1//1/1/1?!?!/1/!!?
+### How does it work?
 
 The very first set variable makes it so the cooldown is off when the game first loads. The if statement runs when the event block is fufilled, (ex: once part is touched, when remote event is received, etc.) and
 if the cooldown is on. If it is on, it prevents the script from continuing further and cause the rapid and spontaneous burst of tools. The wait is to actually add the cooldown part of the script. The final set
