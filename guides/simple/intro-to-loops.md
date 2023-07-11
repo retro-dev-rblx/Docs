@@ -1,5 +1,5 @@
 ---
-description:
+description: An introduction to looping scripts.
 layout:
   title:
     visible: true
