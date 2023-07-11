@@ -27,7 +27,7 @@ To make a debounce script, we need to create a variable. This variable will trac
 to first, indicate that the part hasn't been touched when the game loads, and second, to allow the following if statement to work. Just after the event block, add an if statement. Now, we're going to set the first
 parameter of the if statement to be the variable we just created. The second parameter will be set to false. (Click the dropdown menu, select "Bool" then type in the name of your variable) Next, set the variable back to  After, insert your code for whatever you want to do! The next step is to add the actual delay, and to set the variable back to false.
 
-<img width="327" alt="image" src="https://cdn.discordapp.com/attachments/1127345394779689082/1128129802776363018/image.png">
+<img width="327" alt="image" src="https://github.com/retro-dev-rblx/Docs/assets/75546373/f2d780e7-bd73-481b-8059-1867d5cb2b2b">
 
 ### How does it work?
 
