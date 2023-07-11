@@ -51,7 +51,7 @@ KeyToSave
 
 #### Shared (Bool)
 
-Determines if you the key will be synced across all your retrostudio places.
+Determines if the key will be synced across all your retrostudio places.
 
 * [x] Can use Variable
 
