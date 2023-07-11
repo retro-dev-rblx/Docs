@@ -1,5 +1,5 @@
 ---
-description:A simple guide on how to make a debounce script.
+description: A simple guide on how to make a debounce script.
 layout:
   title:
     visible: true
