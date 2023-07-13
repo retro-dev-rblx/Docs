@@ -39,7 +39,7 @@ ExampleTable
 
 ## Outputs
 
-#### Child (Object)
+#### Child (Variable)
 
 The current child of the instance that is being looped through. 
 
