@@ -62,6 +62,7 @@
     * [Run](code-blocks/miscellaneous/run/README.md)
       * [For Loop](code-blocks/miscellaneous/run/for-loop.md)
       * [Loop Through Table](code-blocks/miscellaneous/run/loop-through-table.md)
+      * [Loop Through Children](code-blocks/miscellaneous/run/loop-through-children.md)
     * [Saving](code-blocks/miscellaneous/saving/README.md)
       * [Save Variable](code-blocks/miscellaneous/saving/save-variable.md)
       * [Load Variable](code-blocks/miscellaneous/saving/load-variable.md)
