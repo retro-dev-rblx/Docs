@@ -92,7 +92,7 @@ There are various pages for code blocks. You can find them below.
 
 #### Run
 
-* [Loop Through Children](code-blocks/miscellaneous/run/loop-through-children.md)
 * [For Loop](code-blocks/miscellaneous/run/for-loop.md)
+* [Loop Through Children](code-blocks/miscellaneous/run/loop-through-children.md)
 * [Loop Through Table](code-blocks/miscellaneous/run/loop-through-table.md)
 
