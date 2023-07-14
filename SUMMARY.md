@@ -104,4 +104,5 @@
 * [Guides](guides/README.md)
   * [Guides Index](guides/guides-index.md)
   * [Simple Guides](guides/simple/README.md)
-    * [Intro to Loops](guides/simple/intro-to-loops.md) 
+    * [Intro to Loops](guides/simple/intro-to-loops.md)
+    * [How to make a Debounce Script](guides/simple/debounce-guide.md)
