@@ -15,7 +15,7 @@ layout:
 
 # Index
 
-Welcome to the RetroStudio Documentation website! Currently a work in progress.
+Welcome to the RetroStudio Documentation website! Currently a work in progress. Wanna help? Contribute [here](https://github.com/retro-dev-rblx/Docs)).
 
 ## [Code Blocks](code-blocks/code-block-index.md)
 
