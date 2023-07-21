@@ -21,6 +21,7 @@ Here is a list of guides for understanding certain coding blocks, and what they 
 
 * [Intro to Loops](simple/intro-to-loops.md)
 * [How to make a Debounce Script](simple/debounce-guide.md)
+* [How to make your code look nice](simple/nice-code.md)
 
 ### Intermediate
 
