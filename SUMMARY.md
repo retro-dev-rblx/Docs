@@ -106,3 +106,4 @@
   * [Simple Guides](guides/simple/README.md)
     * [Intro to Loops](guides/simple/intro-to-loops.md)
     * [How to make a Debounce Script](guides/simple/debounce-guide.md)
+    * [How to make your code look nice](guides/simple/nice-code.md)
