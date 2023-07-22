@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The BodyGyro Instance will apply a torque on the BasePart it is parented to in which itll be given a constant angular displacement, or orientation.
 layout:
   title:
     visible: true
@@ -15,11 +14,14 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# BodyGyro
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+
+The BodyGyro object applies a torque (rotational force) on a BasePart such that it maintains a constant angular displacement, or orientation.
+  This allows for the creation of parts that point in a certain direction, as if a real gyroscope were acting upon it.
+  Essentially, it's the rotational counterpart to a [BodyPosition](bodyposition.md).
 
 #### Available to
 
@@ -49,7 +51,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+BodyGyro
 ```
 
 #### Name (String)
@@ -58,16 +60,7 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
-```
-
-#### Offset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+BodyGyro
 ```
 
 #### Parent (Object)
@@ -79,24 +72,6 @@ Mesh
 workspace
 ```
 
-#### Scale (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
 ## Behavior
 
 #### Archivable (Boolean)
@@ -106,4 +81,33 @@ workspace
 
 ```
 true
+```
+
+## Goals
+
+### D (Number)
+
+* [x] Editable without script
+* [ ] Read Only
+      
+```
+500
+```
+
+### P (Number)
+
+* [x] Editable without script
+* [ ] Read Only
+
+```
+3000
+```
+
+#### maxTorque (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+400000, 0, 400000
 ```

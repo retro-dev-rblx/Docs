@@ -1,7 +1,6 @@
 ---
 description: >-
-  BillboardGuis are containers for GuiObjects that appear in the 3D space. See
-  page for more information.
+ The BodyColors Instance applies colors to the character rig in which it is in by the corresponding properties.
 layout:
   title:
     visible: true
@@ -15,16 +14,18 @@ layout:
     visible: true
 ---
 
-# BillboardGui
+# BodyColors
 
 #### Description
 
-BillboardGuis are containers for GuiObjects that appear in the 3D space. BillboardGuis always face the camera, and can either change size with distance or remain the same size on the screen based on the [Size](#size-udim2) property.
+ BodyColors is a utility object used by Roblox to load avatar body colors from the website.
+  Avatars that are loaded from the website will automatically have a BodyColors object corresponding to said avatar's body color configuration.
+  When parented inside of a character with a Humanoid, it will apply the colors to each specified limb.
 
 #### Available to
 
-* [ ] Early 2009
-* [ ] Late 2009
+* [x] Early 2009
+* [x] Late 2009
 * [x] Late 2010
 * [x] Early 2011
 * [x] Mid 2011
@@ -41,34 +42,63 @@ BillboardGuis are containers for GuiObjects that appear in the 3D space. Billb
 * [x] Early 2015
 * [x] Mid 2015
 
+## Appearance
+
+#### HeadColor (BrickColor)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Cool Yellow
+```
+
+#### LeftArmColor (BrickColor)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Cool Yellow
+```
+
+#### LeftLegColor (BrickColor)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Bright Blue
+```
+
+#### RightArmColor (BrickColor)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Cool Yellow
+```
+
+#### RightLegColor (BrickColor)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Bright Blue
+```
+
+#### TorsoColor (BrickColor)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Dark Green
+```
+
 ## Data
-
-#### Active (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-true
-```
-
-#### Adornee (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-nil
-```
-
-#### AlwaysOnTop (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-false
-```
 
 #### ClassName (String)
 
@@ -76,25 +106,7 @@ false
 * [x] Read only
 
 ```
-Backpack
-```
-
-#### Enabled (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-true
-```
-
-#### ExtendsOffset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+BodyColors
 ```
 
 #### Name (String)
@@ -103,7 +115,7 @@ true
 * [ ] Read only
 
 ```
-Backpack
+Body Colors
 ```
 
 #### Parent (Object)
@@ -114,29 +126,6 @@ Backpack
 ```
 workspace
 ```
-
-#### Size (UDim2)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-{0, 0},{0, 0}
-```
-
-#### SizeOffset (Vector2)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0
-```
-
-#### StudsOffset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
 
 ## Behavior
 

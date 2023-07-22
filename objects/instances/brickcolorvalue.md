@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  An instance which is used to store a BrickColor value.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# BrickColorValue
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The BrickColorValue is used to hold a [BrickColor](#value-brickcolorvalue) inside of its Value property.
 
 #### Available to
 
@@ -49,7 +48,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+BrickColorValue
 ```
 
 #### Name (String)
@@ -58,16 +57,7 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
-```
-
-#### Offset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+Value
 ```
 
 #### Parent (Object)
@@ -79,22 +69,13 @@ Mesh
 workspace
 ```
 
-#### Scale (Vector3)
+#### Value (BrickColorValue)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
+Medium stone gray
 ```
 
 ## Behavior

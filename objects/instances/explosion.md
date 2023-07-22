@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+ The explosion is a instance that makes a explosion effect and then afterwards kills any humanoid around it.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Explosion
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The explosion is a instance that makes a explosion effect and then afterwards kills any humanoid around it.
 
 #### Available to
 
@@ -43,13 +42,40 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 
 ## Data
 
+#### BlastPressure (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+500000
+```
+
+#### BlastRadius (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+4
+```
+
 #### ClassName (String)
 
 * [ ] Editable without script
 * [x] Read only
 
 ```
-BlockMesh
+Explosion
+```
+
+#### DestroyJointRadiusPercent (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+1
 ```
 
 #### Name (String)
@@ -58,43 +84,25 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Explosion
 ```
 
-#### Offset (Vector3)
+#### Parent (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Workspace
+```
+
+#### Position (Vector3)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
 0, 0, 0
-```
-
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Scale (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
 ```
 
 ## Behavior

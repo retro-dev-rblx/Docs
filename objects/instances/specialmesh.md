@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The SpecialMesh is an object that allows developers to provide a standard template or user uploaded mesh to a BasePart.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# SpecialMesh
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The SpecialMesh Instance applies any mesh to the BasePart it is parented to. It's appearance and behavior are mostly controlled via MeshId and TextureId.
 
 #### Available to
 
@@ -49,7 +48,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+SpecialMesh
 ```
 
 #### Name (String)
@@ -68,6 +67,33 @@ Mesh
 
 ```
 0, 0, 0
+```
+
+#### TextureId (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+rbxassetid://0
+```
+
+#### MeshId (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+rbxassetid://0
+```
+
+#### MeshType (Enum.MeshType)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Head
 ```
 
 #### Parent (Object)

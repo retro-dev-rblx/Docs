@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+ The team instance is used in the Teams service for teaming players. This can be used to make allies/enemies and stuff other as such.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Team
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The team instance is used in the Teams service for teaming players. This can be used to make allies/enemies and stuff other as such.
 
 #### Available to
 
@@ -43,13 +42,22 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 
 ## Data
 
+#### AutoAssignable (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
 #### ClassName (String)
 
 * [ ] Editable without script
 * [x] Read only
 
 ```
-BlockMesh
+Team
 ```
 
 #### Name (String)
@@ -58,43 +66,25 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Team
 ```
 
-#### Offset (Vector3)
+#### Parent (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-0, 0, 0
+Workspace
 ```
 
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Scale (Vector3)
+#### TeamColor (BrickColor)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
+White
 ```
 
 ## Behavior

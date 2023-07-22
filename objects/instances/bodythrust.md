@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The BodyThrust Instance exerts a force relative to the BasePart in which it is parented to at a specific location.
 layout:
   title:
     visible: true
@@ -15,11 +14,14 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# BodyThrust
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The BodyThrust object applies (or exerts) a force relative to the part to which it is parented at a specific location.
+  It behaves similar to a [BodyForce](bodyforce.md), except that this object's force applies at a specific point ([BodyThrust.Location](#location-vector3)), allowing you to exert a torque (rotational force).
+  To apply a force dynamically so that a part maintains a constant angular velocity, use a [BodyAngularVelocity](bodyangularvelocity.md) instead.
+  To apply a force dynamically so that a part maintains a constant orientation (angular position), use a [BodyGyro](bodygyro.md).
 
 #### Available to
 
@@ -49,7 +51,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+BodyThrust
 ```
 
 #### Name (String)
@@ -58,16 +60,7 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
-```
-
-#### Offset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+BodyThrust
 ```
 
 #### Parent (Object)
@@ -79,24 +72,6 @@ Mesh
 workspace
 ```
 
-#### Scale (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
 ## Behavior
 
 #### Archivable (Boolean)
@@ -106,4 +81,24 @@ workspace
 
 ```
 true
+```
+
+## Goals
+
+#### Force (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 1, 0
+```
+
+#### location (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 0, 0
 ```

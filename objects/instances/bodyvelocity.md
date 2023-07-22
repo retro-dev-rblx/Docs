@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The BodyVelocity Instance exerts a force on the BasePart it is parented to so that it will maintain a constant velocity.
 layout:
   title:
     visible: true
@@ -15,11 +14,12 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# BodyVelocity
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The BodyVelocity object applies a force on a BasePart such that it will maintain a constant velocity.
+  The [Velocity](#velocity-vector3) property, not to be confused wtih BasePart.AssemblyLinearVelocity, controls the goal velocity.
 
 #### Available to
 
@@ -49,7 +49,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+BodyVelocity
 ```
 
 #### Name (String)
@@ -58,16 +58,7 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
-```
-
-#### Offset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+BodyVelocity
 ```
 
 #### Parent (Object)
@@ -79,24 +70,6 @@ Mesh
 workspace
 ```
 
-#### Scale (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
 ## Behavior
 
 #### Archivable (Boolean)
@@ -106,4 +79,33 @@ workspace
 
 ```
 true
+```
+
+## Goals
+
+#### P (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+1250
+```
+
+#### maxForce (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+4000, 0, 4000
+```
+
+#### velocity (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 2, 0
 ```

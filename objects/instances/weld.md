@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+ The weld instance is used for welding 2 instances together, but this is most commonly used for Parts.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Weld
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The weld instance is used for welding 2 instances together, but this is most commonly used for Parts.
 
 #### Available to
 
@@ -49,7 +48,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+Weld
 ```
 
 #### Name (String)
@@ -58,48 +57,48 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Weld
 ```
 
-#### Offset (Vector3)
+#### Parent (String)
 
 * [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
-```
-
-#### Parent (Object)
-
-* [ ] Editable without script
 * [ ] Read only
 
 ```
 workspace
 ```
 
-#### Scale (Vector3)
+#### Part0 (String)
 
-* [x] Editable without script
+* [ ] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+nil
 ```
 
-#### VertexColor (Vector3)
+#### Part1 (String)
 
-* [x] Editable without script
+* [ ] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+nil
 ```
 
 ## Behavior
 
 #### Archivable (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
+#### Enabled (Boolean)
 
 * [x] Editable without script
 * [ ] Read only

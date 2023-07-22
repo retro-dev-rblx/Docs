@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The BoolValue is used to hold a boolean inside of its Value property.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# BoolValue
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+An instance which is used to hold a boolean value. The value can be used for many things, including to communicate between scripts.
 
 #### Available to
 
@@ -49,7 +48,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+BoolValue
 ```
 
 #### Name (String)
@@ -58,16 +57,7 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
-```
-
-#### Offset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+Value
 ```
 
 #### Parent (Object)
@@ -79,22 +69,13 @@ Mesh
 workspace
 ```
 
-#### Scale (Vector3)
+#### Value (Boolean)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
+false
 ```
 
 ## Behavior

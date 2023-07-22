@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BodyAngularVelocity object applies a torque (or rotational force) on a
-  BasePart. See page for more information.
+  The BodyPosition Instance applies a force onto the basepart it is parented to in such a way that it will maintain a constant position in the workspace.
 layout:
   title:
     visible: true
@@ -15,11 +14,14 @@ layout:
     visible: true
 ---
 
-# BodyAngularVelocity
+# BodyPosition
 
 #### Description
 
-The BodyAngularVelocity object applies a torque (or rotational force) on a BasePart such that it maintains a constant angular velocity as determined by its [AngularVelocity](#angularvelocity-vector3). This allows for the creation of parts that continually rotate. It is the rotational counterpart to a BodyVelocity. If you would like to maintain a constant angular displacement, use a [BodyGyro](bodygyro.md) instead.
+The BodyPosition object applies a force on a BasePart such that it will maintain a constant position in the world.
+  The [Position](#position-vector3) property, not to be confused with BasePart.Position, controls the target world position.
+  This is the translational counterpart to a [BodyGyro](bodygyro.md). 
+  If you need further control on a force applied to an object, consider using a [BodyForce](bodyforce.md) or [BodyThrust](bodythrust.md) instead.
 
 #### Available to
 
@@ -49,7 +51,7 @@ The BodyAngularVelocity object applies a torque (or rotational force) on a Bas
 * [x] Read only
 
 ```
-BodyAngularVelocity
+BodyPosition
 ```
 
 #### Name (String)
@@ -58,7 +60,7 @@ BodyAngularVelocity
 * [ ] Read only
 
 ```
-BodyAngularVelocity
+BodyPosition
 ```
 
 #### Parent (Object)
@@ -83,29 +85,38 @@ true
 
 ## Goals
 
-#### P (Number)
+### D (Number)
 
 * [x] Editable without script
-* [ ] Read only
-
+* [ ] Read Only
+      
 ```
-1250
+500
 ```
 
-#### angularvelocity (Vector3)
+### P (Number)
 
 * [x] Editable without script
-* [ ] Read only
+* [ ] Read Only
 
 ```
-0, 2, 0
+3000
 ```
 
-#### maxTorque (Vector3)
+#### maxForce (Vector3)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
 4000, 4000, 4000
+```
+
+#### position (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 0, 0
 ```

@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+ The fire instance is a instance that creates fire particles.
 layout:
   title:
     visible: true
@@ -15,16 +14,16 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Fire
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The fire instance is a instance that creates fire particles.
 
 #### Available to
 
-* [x] Early 2009
-* [x] Late 2009
+* [ ] Early 2009
+* [ ] Late 2009
 * [x] Late 2010
 * [x] Early 2011
 * [x] Mid 2011
@@ -49,7 +48,25 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+Fire
+```
+
+#### Color (Color3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+255, 128, 0
+```
+
+#### Heat (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+9
 ```
 
 #### Name (String)
@@ -58,43 +75,34 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Fire
 ```
 
-#### Offset (Vector3)
+#### Parent (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-0, 0, 0
+Workspace
 ```
 
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Scale (Vector3)
+#### SecondaryColor (Color3)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+255, 0, 0
 ```
 
-#### VertexColor (Vector3)
+#### Size (Number)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+5
 ```
 
 ## Behavior

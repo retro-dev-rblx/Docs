@@ -1,7 +1,6 @@
 ---
 description: >-
-  BillboardGuis are containers for GuiObjects that appear in the 3D space. See
-  page for more information.
+ The tool instance is used for making tools, items, or anything that a player can hold. It is stored in the player's backpack.
 layout:
   title:
     visible: true
@@ -15,16 +14,16 @@ layout:
     visible: true
 ---
 
-# BillboardGui
+# Tool
 
 #### Description
 
-BillboardGuis are containers for GuiObjects that appear in the 3D space. BillboardGuis always face the camera, and can either change size with distance or remain the same size on the screen based on the [Size](#size-udim2) property.
+The tool instance is used for making tools, items, or anything that a player can hold. It is stored in the player's [Backpack](backpack.md).
 
 #### Available to
 
-* [ ] Early 2009
-* [ ] Late 2009
+* [x] Early 2009
+* [x] Late 2009
 * [x] Late 2010
 * [x] Early 2011
 * [x] Mid 2011
@@ -41,54 +40,18 @@ BillboardGuis are containers for GuiObjects that appear in the 3D space. Billb
 * [x] Early 2015
 * [x] Mid 2015
 
-## Data
+## Appearance
 
-#### Active (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-true
-```
-
-#### Adornee (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-nil
-```
-
-#### AlwaysOnTop (Boolean)
+#### GripForward (Vector3)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-false
+0, 0, -1
 ```
 
-#### ClassName (String)
-
-* [ ] Editable without script
-* [x] Read only
-
-```
-Backpack
-```
-
-#### Enabled (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-true
-```
-
-#### ExtendsOffset (Vector3)
+#### GripPos (Vector3)
 
 * [x] Editable without script
 * [ ] Read only
@@ -97,50 +60,103 @@ true
 0, 0, 0
 ```
 
+#### GripRight (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+1, 0, 0
+```
+
+#### GripRotation (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 0, 0
+```
+
+#### GripUp (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 1, 0
+```
+
+## Data
+
+#### ClassName (String)
+
+* [ ] Editable without script
+* [x] Read only
+
+```
+Tool
+```
+
 #### Name (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-Backpack
+Tool
 ```
 
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Size (UDim2)
+#### Parent (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-{0, 0},{0, 0}
+Workspace
 ```
 
-#### SizeOffset (Vector2)
+#### Texture (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-0, 0
+
 ```
-
-#### StudsOffset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
 
 ## Behavior
 
 #### Archivable (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
+#### CanBeDropped (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
+#### RequiresHandle (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
+## State
+
+#### Enabled (Boolean)
 
 * [x] Editable without script
 * [ ] Read only

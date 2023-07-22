@@ -1,7 +1,6 @@
 ---
 description: >-
-  BillboardGuis are containers for GuiObjects that appear in the 3D space. See
-  page for more information.
+ The texture instance is used to give a texture to physical instances such as parts.
 layout:
   title:
     visible: true
@@ -15,16 +14,16 @@ layout:
     visible: true
 ---
 
-# BillboardGui
+# Texture
 
 #### Description
 
-BillboardGuis are containers for GuiObjects that appear in the 3D space. BillboardGuis always face the camera, and can either change size with distance or remain the same size on the screen based on the [Size](#size-udim2) property.
+The texture instance is used to give a texture to physical instances such as parts.
 
 #### Available to
 
-* [ ] Early 2009
-* [ ] Late 2009
+* [x] Early 2009
+* [x] Late 2009
 * [x] Late 2010
 * [x] Early 2011
 * [x] Mid 2011
@@ -41,34 +40,90 @@ BillboardGuis are containers for GuiObjects that appear in the 3D space. Billb
 * [x] Early 2015
 * [x] Mid 2015
 
+## Appearance
+
+#### Color3 (Color3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+255, 255, 255
+```
+
+#### OffsetStudsU (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0
+```
+
+#### OffsetStudsV (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0
+```
+
+#### StudsPerTileU (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+2
+```
+
+#### StudsPerTileV (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+2
+```
+
+#### StudsPerTileV (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+2
+```
+
+#### Texture (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+
+```
+
+#### Transparency (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0
+```
+
+#### Zindex (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+1
+```
+
 ## Data
-
-#### Active (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-true
-```
-
-#### Adornee (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-nil
-```
-
-#### AlwaysOnTop (Boolean)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-false
-```
 
 #### ClassName (String)
 
@@ -76,25 +131,16 @@ false
 * [x] Read only
 
 ```
-Backpack
+Texture
 ```
 
-#### Enabled (Boolean)
+#### Face (NormalId)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-true
-```
-
-#### ExtendsOffset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+Front
 ```
 
 #### Name (String)
@@ -103,42 +149,19 @@ true
 * [ ] Read only
 
 ```
-Backpack
+Texture
 ```
 
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Size (UDim2)
+#### Parent (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-{0, 0},{0, 0}
+Workspace
 ```
 
-#### SizeOffset (Vector2)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0
-```
-
-#### StudsOffset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-## Behavior
+## Data
 
 #### Archivable (Boolean)
 

@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+ The decal instance creates a image on one side of a physical instance (most commonly a Part) with the provided texture.
 layout:
   title:
     visible: true
@@ -15,11 +14,11 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Decal
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The decal instance creates a image on one side of a physical instance (most commonly a Part) with the provided texture.
 
 #### Available to
 
@@ -41,6 +40,44 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Early 2015
 * [x] Mid 2015
 
+## Appearance
+
+#### Color3 (Color3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+255, 255, 255
+```
+
+#### Texture (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+
+```
+
+#### Transparency (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0
+```
+
+#### Zindex (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+1
+```
+
 ## Data
 
 #### ClassName (String)
@@ -49,7 +86,16 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+Decal
+```
+
+#### Face (NormalId)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+Front
 ```
 
 #### Name (String)
@@ -58,43 +104,16 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Decal
 ```
 
-#### Offset (Vector3)
+#### Parent (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-0, 0, 0
-```
-
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Scale (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
+Workspace
 ```
 
 ## Behavior

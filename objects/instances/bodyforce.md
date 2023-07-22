@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The BodyForce Instance will exerts a force on a BasePart in which it is parented to based off the BodyForce.Force property.
 layout:
   title:
     visible: true
@@ -15,11 +14,14 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# BodyForce
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The BodyForce object applies (or exerts) a force on the part to which it is parented. 
+  If the magnitude of such a force is great enough, parts can begin to accelerate. 
+  The force is determined by the [Force](#force-vector3) property, and is defined on the three world axes.
+  See page for more information.
 
 #### Available to
 
@@ -49,7 +51,7 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+BodyForce
 ```
 
 #### Name (String)
@@ -58,16 +60,7 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
-```
-
-#### Offset (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
+BodyForce
 ```
 
 #### Parent (Object)
@@ -79,24 +72,6 @@ Mesh
 workspace
 ```
 
-#### Scale (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
-#### VertexColor (Vector3)
-
-* [x] Editable without script
-* [ ] Read only
-
-```
-1, 1, 1
-```
-
 ## Behavior
 
 #### Archivable (Boolean)
@@ -106,4 +81,15 @@ workspace
 
 ```
 true
+```
+
+## Goals
+
+#### Force (Vector3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+0, 1, 0
 ```

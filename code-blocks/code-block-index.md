@@ -88,3 +88,11 @@ There are various pages for code blocks. You can find them below.
 * [Right Mouse Up](input/mouse/right-mouse-up.md)
 * [Set Mouse Target Filter](input/mouse/set-mouse-target-filter.md)
 
+## Miscellaneous
+
+#### Run
+
+* [For Loop](miscellaneous/run/for-loop.md)
+* [Loop Through Children](miscellaneous/run/loop-through-children.md)
+* [Loop Through Table](miscellaneous/run/loop-through-table.md)
+

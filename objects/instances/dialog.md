@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+  The Dialog object makes a chat bubble above a part it is put into.
 layout:
   title:
     visible: true
@@ -15,17 +14,17 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Dialog
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The Dialog object makes a chat bubble above a part it is put into.
 
 #### Available to
 
-* [x] Early 2009
-* [x] Late 2009
-* [x] Late 2010
+* [ ] Early 2009
+* [ ] Late 2009
+* [ ] Late 2010
 * [x] Early 2011
 * [x] Mid 2011
 * [x] Late 2011
@@ -49,7 +48,41 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+Dialog
+```
+
+#### ConversationDistance (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+25
+```
+
+#### GoodbyeDialog (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+```
+
+#### InUse (Boolean)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+true
+```
+
+#### InitialPrompt (String)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
 ```
 
 #### Name (String)
@@ -58,43 +91,34 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Dialog
 ```
 
-#### Offset (Vector3)
+#### Parent (String)
 
 * [x] Editable without script
-* [ ] Read only
-
-```
-0, 0, 0
-```
-
-#### Parent (Object)
-
-* [ ] Editable without script
 * [ ] Read only
 
 ```
 workspace
 ```
 
-#### Scale (Vector3)
+#### Purpose (DialogPurpose)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+Help
 ```
 
-#### VertexColor (Vector3)
+#### Tone (DialogTone)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+Neutral
 ```
 
 ## Behavior

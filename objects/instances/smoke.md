@@ -1,7 +1,6 @@
 ---
 description: >-
-  The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
-  See page for more information.
+ The smoke instance is a instance that creates smoke particles.
 layout:
   title:
     visible: true
@@ -15,16 +14,16 @@ layout:
     visible: true
 ---
 
-# BlockMesh
+# Smoke
 
 #### Description
 
-The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to. It behaves identically to a [SpecialMesh](specialmesh.md) with [SpecialMesh.MeshType](specialmesh.md#meshtype-enummeshtype) set to 'brick'.
+The smoke instance is a instance that creates smoke particles.
 
 #### Available to
 
-* [x] Early 2009
-* [x] Late 2009
+* [ ] Early 2009
+* [ ] Late 2009
 * [x] Late 2010
 * [x] Early 2011
 * [x] Mid 2011
@@ -49,7 +48,16 @@ The BlockMesh object applies a 'brick' mesh to the BasePart it is parented to.
 * [x] Read only
 
 ```
-BlockMesh
+Smoke
+```
+
+#### Color (Color3)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+255, 255, 255
 ```
 
 #### Name (String)
@@ -58,43 +66,43 @@ BlockMesh
 * [ ] Read only
 
 ```
-Mesh
+Smoke
 ```
 
-#### Offset (Vector3)
+#### Opacity (Number)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-0, 0, 0
+0.5
 ```
 
-#### Parent (Object)
-
-* [ ] Editable without script
-* [ ] Read only
-
-```
-workspace
-```
-
-#### Scale (Vector3)
+#### Parent (String)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+Workspace
 ```
 
-#### VertexColor (Vector3)
+#### RiseVelocity (Number)
 
 * [x] Editable without script
 * [ ] Read only
 
 ```
-1, 1, 1
+1
+```
+
+#### Size (Number)
+
+* [x] Editable without script
+* [ ] Read only
+
+```
+1
 ```
 
 ## Behavior
