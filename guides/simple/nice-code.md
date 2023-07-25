@@ -16,9 +16,9 @@ layout:
 
 ## Introduction
 
-You spend hours working on one script, in block code. You decide to zoom out.
+Have you looked at your code but can't read it?
 
-And look. The code is ugly but you dont know that, so you post it to the official Retro Dev discord server. They laugh at you, but that's because you don't know how to make your code look nice.
+And look. The code is working but it will take some time to understand it, which you might forget later in the future.
 
 ### How to clean it?
 
@@ -40,5 +40,5 @@ Much better! But a new player still doesn't know what this code means. Lets use 
 
 <img width="191" alt="image" src="https://github.com/randompea/Docs/assets/77026708/9ee0b4f4-9659-47cc-9871-53a7113c3143">
 
-Great! It went from something no one could understand to something even new players could understand!
+Great! It went from something no one could understand to something even new players could understand! This makes block scripting more accessible to new comers so they can learn from other people.
 
