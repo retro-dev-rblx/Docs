@@ -88,6 +88,33 @@ There are various pages for code blocks. You can find them below.
 * [Right Mouse Up](input/mouse/right-mouse-up.md)
 * [Set Mouse Target Filter](input/mouse/set-mouse-target-filter.md)
 
+#### Keyboard
+
+* [Key Down](input/keyboard/key-down.md)
+* [Key Up](input/keyboard/key-up.md)
+
+#### GUI
+
+* [GUI Mouse Enter](input/gui/gui-mouse-enter.md)
+* [GUI Mouse Leave](input/gui/gui-mouse-leave.md)
+* [GUI Mouse Moved](input/gui/gui-mouse-moved.md)
+* [GUI Mouse Wheel Up](input/gui/gui-mouse-wheel-up.md)
+* [GUI Mouse Wheel Down](input/gui/gui-mouse-wheel-down.md)
+
+#### GUI Buttons
+
+* [GUI Left Click](input/gui-buttons/gui-left-click.md)
+* [GUI Left Mouse Down](input/gui-buttons/gui-left-mouse-down.md)
+* [GUI Left Mouse Up](input/gui-buttons/gui-left-mouse-up.md)
+* [GUI Right Click](input/gui-buttons/gui-right-click.md)
+* [GUI Right Mouse Down](input/gui-buttons/gui-right-mouse-down.md)
+* [GUI Right Mouse Up](input/gui-buttons/gui-right-mouse-up.md)
+
+#### Text Box
+
+* [Text Box Focused](input/text-box/text-box-focused.md)
+* [Text Box Focus Lost](input/text-box/text-box-focus-lost.md)
+
 ## Miscellaneous
 
 #### Run
