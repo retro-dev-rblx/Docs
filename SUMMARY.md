@@ -58,7 +58,6 @@
       * [Right Mouse Down](code-blocks/input/mouse/right-mouse-down.md)
       * [Right Mouse Up](code-blocks/input/mouse/right-mouse-up.md)
       * [Set Mouse Target Filter](code-blocks/input/mouse/set-mouse-target-filter.md)
-      * [Click Detector Interaction](input/mouse/click-detector-interaction.md)
     * [Keyboard](code-blocks/input/keyboard/README.md)
       * [Key Down](input/keyboard/key-down.md)
       * [Key Up](input/keyboard/key-up.md)
