@@ -1,5 +1,5 @@
 ---
-description: Iterates through all the children of an instance.
+description: Does nothing. Useful for organizing your code..
 layout:
   title:
     visible: true
