@@ -123,3 +123,18 @@ There are various pages for code blocks. You can find them below.
 * [Loop Through Children](miscellaneous/run/loop-through-children.md)
 * [Loop Through Table](miscellaneous/run/loop-through-table.md)
 
+#### Save
+
+* [Load Instance](miscellaneous/saving/load-instance.md)
+* [Load Variable](miscellaneous/saving/load-variable.md)
+* [Save Instance](miscellaneous/saving/save-instance.md)
+* [Save Variable](miscellaneous/saving/save-variable.md)
+  
+#### Miscellaneous
+
+* [Comment](code-blocks/miscellaneous/miscellaneous/comment.md)
+* [Get Roblox Version](code-blocks/miscellaneous/miscellaneous/get-roblox-version.md)
+* [Insert Model](code-blocks/miscellaneous/miscellaneous/insert-model.md)
+* [Is game loaded](code-blocks/miscellaneous/miscellaneous/is-game-loaded.md)
+* [Is Studio](code-blocks/miscellaneous/miscellaneous/is-studio.md)
+* [Reload Place](code-blocks/miscellaneous/miscellaneous/reload-place.md)
