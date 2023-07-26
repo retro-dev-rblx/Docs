@@ -1,5 +1,5 @@
 ---
-description: Returns a bool based on whether or not the game has loaded..
+description: Returns a bool based on whether or not the game has loaded.
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Loop Through Children
+# Is game loaded
 
 ## Description
 
