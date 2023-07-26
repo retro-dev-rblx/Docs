@@ -32,4 +32,4 @@ Returns a bool based on whether or not the game has loaded..
 
 Outputs a bool value if the game has loaded. Works in studio as well.
 
-* [ ] Can use variable?
+* [ ] Can use Variable
