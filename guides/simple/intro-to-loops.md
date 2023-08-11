@@ -1,5 +1,5 @@
 ---
-description:
+description: An introduction to looping scripts.
 layout:
   title:
     visible: true
@@ -46,7 +46,7 @@ Other examples where you can use the `For Loop` block for are:
 
 ### While Loops
 
-Well, what if you need something that lasts infinitley? A while loop lasts forever, which can be pretty useful in some cases.
+Well, what if you need something that lasts infinitely? A while loop lasts forever, which can be pretty useful in some cases.
 
 This time, we'll be making a health monitor. Make sure to insert a local script instead of a regular one.
 
