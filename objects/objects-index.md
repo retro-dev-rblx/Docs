@@ -51,3 +51,4 @@ There are various pages for objects. You can find them below.
 
 * [Soundscape](services/soundscape.md)
 * [Workspace](services/workspace.md)
+* [Teams](services/teams.md)
