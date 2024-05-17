@@ -133,6 +133,7 @@
   * [Services](objects/services/README.md)
     * [Soundscape](objects/services/soundscape.md)
     * [Workspace](objects/services/workspace.md)
+    * [Teams](objects/services/teams.md)
 * [Guides](guides/README.md)
   * [Guides Index](guides/guides-index.md)
   * [Simple Guides](guides/simple/README.md)
