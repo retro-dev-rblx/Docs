@@ -42,7 +42,7 @@ Teams
 Teams
 ```
 
-#### Parent (String)
+#### Parent (Object)
 
 * [ ] Editable without script
 * [x] Read only
