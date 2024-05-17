@@ -49,6 +49,11 @@ There are various pages for objects. You can find them below.
 
 ## Services
 
-* [Soundscape](services/soundscape.md)
 * [Workspace](services/workspace.md)
+* [Players](services/players.md)
+* [Lighting](services/lighting.md)
+* [StarterGui](services/startergui.md)
+* [StarterPack](services/starterpack.md)
+* [Debris](services/debris.md)
 * [Teams](services/teams.md)
+* [Soundscape](services/soundscape.md)
