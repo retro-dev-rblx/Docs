@@ -40,7 +40,7 @@ Debris
 Debris
 ```
 
-#### Parent (String)
+#### Parent (Object)
 
 * [ ] Editable without script
 * [x] Read only
