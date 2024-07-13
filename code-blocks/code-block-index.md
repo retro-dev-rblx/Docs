@@ -117,6 +117,7 @@ There are various pages for code blocks. You can find them below.
 
 ## Miscellaneous
 
+<<<<<<< HEAD
 #### Loops
 
 * [For Loop](miscellaneous/loops/for-loop.md)
@@ -136,6 +137,13 @@ There are various pages for code blocks. You can find them below.
 #### Run
 
 
+=======
+#### Run
+
+* [For Loop](miscellaneous/run/for-loop.md)
+* [Loop Through Children](miscellaneous/run/loop-through-children.md)
+* [Loop Through Table](miscellaneous/run/loop-through-table.md)
+>>>>>>> 3a54abc7fc7e9dc16fda35bcf31c6531d7dc33db
 
 #### Save
 
@@ -143,8 +151,11 @@ There are various pages for code blocks. You can find them below.
 * [Load Variable](miscellaneous/saving/load-variable.md)
 * [Save Instance](miscellaneous/saving/save-instance.md)
 * [Save Variable](miscellaneous/saving/save-variable.md)
+<<<<<<< HEAD
 * [Json Encode](miscellaneous/saving/json-encode.md)
 * [Json Decode](miscellaneous/saving/json-decode.md)
+=======
+>>>>>>> 3a54abc7fc7e9dc16fda35bcf31c6531d7dc33db
   
 #### Miscellaneous
 
