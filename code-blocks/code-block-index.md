@@ -127,6 +127,12 @@ There are various pages for code blocks. You can find them below.
 * [Break Loop](miscellaneous/loops/break-loop.md)
 * [Continue Loop](miscellaneous/loops/continue-loop.md)
 
+#### Functions
+
+* [Define Function](miscellaneous/functions/define-function.md)
+* [Function Return](miscellaneous/functions/function-return.md)
+* [Execute Function](miscellaneous/functions/execute-function.md)
+
 #### Run
 
 
