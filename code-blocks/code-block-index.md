@@ -132,9 +132,9 @@ There are various pages for code blocks. You can find them below.
   
 #### Miscellaneous
 
-* [Comment](code-blocks/miscellaneous/miscellaneous/comment.md)
-* [Get Roblox Version](code-blocks/miscellaneous/miscellaneous/get-roblox-version.md)
-* [Insert Model](code-blocks/miscellaneous/miscellaneous/insert-model.md)
-* [Is game loaded](code-blocks/miscellaneous/miscellaneous/is-game-loaded.md)
-* [Is Studio](code-blocks/miscellaneous/miscellaneous/is-studio.md)
-* [Reload Place](code-blocks/miscellaneous/miscellaneous/reload-place.md)
+* [Comment](miscellaneous/miscellaneous/comment.md)
+* [Get Roblox Version](miscellaneous/miscellaneous/get-roblox-version.md)
+* [Insert Model](miscellaneous/miscellaneous/insert-model.md)
+* [Is game loaded](miscellaneous/miscellaneous/is-game-loaded.md)
+* [Is Studio](miscellaneous/miscellaneous/is-studio.md)
+* [Reload Place](miscellaneous/miscellaneous/reload-place.md)
